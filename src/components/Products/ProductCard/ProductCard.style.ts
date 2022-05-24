@@ -1,6 +1,16 @@
 import styled from "styled-components";
 
-export const ProductCardContainer = styled.div``;
+export const ProductCardContainer = styled.div`
+  transition: transform 0.35s ease;
+  &:hover {
+    transform: scale(1.02);
+    > * {
+      &:first-child {
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+`;
 
 export const ProductCardData = styled.div`
   background-color: white;

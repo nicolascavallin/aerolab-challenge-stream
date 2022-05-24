@@ -5,10 +5,10 @@ const ProductsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 48px 24px;
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1300px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @media screen and (max-width: 684px) {
+  @media screen and (max-width: 900px) {
     grid-template-columns: repeat(2, 1fr);
   }
   @media screen and (max-width: 564px) {
